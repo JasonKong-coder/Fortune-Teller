@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Try our online Fortune Teller and discover your destiny.">
+        <meta name="keywords" content="fortune teller, online fortune, destiny, prediction, game">
+        <meta name="author" content="Jasonkong-Coder">
+        <title>Fortune Teller - Online Fortune Telling Game</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">Fortune Teller</div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-home"></i>Home</a></li>
+                    <li><a href="https://jasonkong-coder.github.io/MyResume-website/"><i class="fa-solid fa-question"></i>About</a></li>
+                    <li><a href="https://github.com/JasonKong-coder"><i class="fa-brands fa-github"></i>Github</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="fortune-section">
+                <h1>Daily Fortune</h1>
+                <p>Click the button below to reveal your fortune today!</p>
+                <button id="fortune-btn" aria-label="Reveal today's fortune">Tell me my fortune!</button>
+                <p id="fortune-result"></p>
+            </section>
+            <section id="addFortune-section">
+                <h2>Add your own Fortune!</h2>
+                <input type="text" placeholder="Write your own fortune" id="new-fortune">
+                <button id="add-btn">Add fortune</button>
+                <p id="add-result"></p>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright">© 2025 Jason Kong. All rights reserved.</p>
+            <nav>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Other Projects</a>
+            </nav>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
