@@ -9,7 +9,7 @@ Built with **HTML, CSS, and JavaScript**.
 - Responsive design
 
 ## Demo
-👉 [Live Demo](https://jasonkong-coder.github.io/Fortune-Teller/))
+👉 [Live Demo](https://jasonkong-coder.github.io/Fortune-Teller/)
 
 ## How to Use
 1. Clone this repo  
