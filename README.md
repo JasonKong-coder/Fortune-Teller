@@ -1,4 +1,4 @@
-# Fortune Teler 🔮
+# Fortune Teller 🔮
 
 A simple web-based fortune teller app.  
 Built with **HTML, CSS, and JavaScript**.  
